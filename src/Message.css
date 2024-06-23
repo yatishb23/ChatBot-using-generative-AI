@@ -1,0 +1,19 @@
+
+.user-message{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.message-bubble{
+    background-color: #414141;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    /* max-width: 70%; */
+    word-wrap: break-word;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+.message-bubble p {
+    margin: 0;
+}
