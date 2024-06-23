@@ -65,7 +65,7 @@ function App() {
   const botMessage = async (userMessage) => {
     const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-    const genAI = new GoogleGenerativeAI("AIzaSyBokavSmX3135w0GOwIMNtq0H7ffjb5OKg");
+    const genAI = new GoogleGenerativeAI("Your API KEY");
 
     try {
       setLoading(true);
